@@ -7,7 +7,7 @@ const UserSchema = Schema({
     unique: true,
     required: true
   },
-  passwordHash: {
+  password: {
     type: String,
     required: true
   }
